@@ -1,0 +1,462 @@
+{
+  "one": [
+    {
+      "name": "i",
+      "isActive": true
+    },
+    {
+      "name": "t",
+      "isActive": true
+    },
+    {
+      "name": "l",
+      "isActive": false
+    },
+    {
+      "name": "i",
+      "isActive": true
+    },
+    {
+      "name": "s",
+      "isActive": true
+    },
+    {
+      "name": "a",
+      "isActive": false
+    },
+    {
+      "name": "s",
+      "isActive": false
+    },
+    {
+      "name": "a",
+      "isActive": false
+    },
+    {
+      "name": "m",
+      "isActive": false
+    },
+    {
+      "name": "p",
+      "isActive": false
+    },
+    {
+      "name": "m",
+      "isActive": false
+    }
+  ],
+  "two": [
+    {
+      "name": "a",
+      "isActive": false
+    },
+    {
+      "name": "c",
+      "isActive": false
+    },
+    {
+      "name": "q",
+      "isActive": false
+    },
+    {
+      "name": "u",
+      "isActive": false
+    },
+    {
+      "name": "a",
+      "isActive": false
+    },
+    {
+      "name": "r",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "r",
+      "isActive": false
+    },
+    {
+      "name": "d",
+      "isActive": false
+    },
+    {
+      "name": "c",
+      "isActive": false
+    }
+  ],
+  "three": [
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "w",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "y",
+      "isActive": false
+    },
+    {
+      "name": "f",
+      "isActive": false
+    },
+    {
+      "name": "i",
+      "isActive": false
+    },
+    {
+      "name": "v",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "x",
+      "isActive": false
+    }
+  ],
+  "four": [
+    {
+      "name": "h",
+      "isActive": false
+    },
+    {
+      "name": "a",
+      "isActive": false
+    },
+    {
+      "name": "l",
+      "isActive": false
+    },
+    {
+      "name": "f",
+      "isActive": false
+    },
+    {
+      "name": "s",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "f",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "o",
+      "isActive": false
+    }
+  ],
+  "five": [
+    {
+      "name": "p",
+      "isActive": false
+    },
+    {
+      "name": "a",
+      "isActive": false
+    },
+    {
+      "name": "s",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "r",
+      "isActive": false
+    },
+    {
+      "name": "u",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "i",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    }
+  ],
+  "six": [
+    {
+      "name": "o",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "s",
+      "isActive": false
+    },
+    {
+      "name": "i",
+      "isActive": false
+    },
+    {
+      "name": "x",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "h",
+      "isActive": false
+    },
+    {
+      "name": "r",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    }
+  ],
+  "seven": [
+    {
+      "name": "f",
+      "isActive": false
+    },
+    {
+      "name": "o",
+      "isActive": false
+    },
+    {
+      "name": "u",
+      "isActive": false
+    },
+    {
+      "name": "r",
+      "isActive": false
+    },
+    {
+      "name": "f",
+      "isActive": false
+    },
+    {
+      "name": "i",
+      "isActive": false
+    },
+    {
+      "name": "v",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "w",
+      "isActive": false
+    },
+    {
+      "name": "o",
+      "isActive": false
+    }
+  ],
+  "eight": [
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "i",
+      "isActive": false
+    },
+    {
+      "name": "g",
+      "isActive": false
+    },
+    {
+      "name": "h",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "l",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "v",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    }
+  ],
+  "nine": [
+    {
+      "name": "s",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "v",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "w",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "l",
+      "isActive": false
+    },
+    {
+      "name": "v",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    }
+  ],
+  "ten": [
+    {
+      "name": "t",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "n",
+      "isActive": false
+    },
+    {
+      "name": "s",
+      "isActive": false
+    },
+    {
+      "name": "e",
+      "isActive": false
+    },
+    {
+      "name": "o",
+      "isActive": false
+    },
+    {
+      "name": "c",
+      "isActive": false
+    },
+    {
+      "name": "l",
+      "isActive": false
+    },
+    {
+      "name": "o",
+      "isActive": false
+    },
+    {
+      "name": "c",
+      "isActive": false
+    },
+    {
+      "name": "k",
+      "isActive": false
+    }
+  ]
+}
