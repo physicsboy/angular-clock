@@ -6,8 +6,6 @@ import {map} from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ClockService {
-  timeTo;
-  timePast;
   clock: Observable<Date>;
   hours: Observable<number>;
   mins: Observable<number>;
@@ -30,13 +28,4 @@ export class ClockService {
     return this.mins;
   }
 
-  isThisMins(time, num: number) {
-    this.timePast = time >= num && time < num + 5;
-    this.timeTo = time >= 60 - num && time < 65 - num;
-    return this.timePast || this.timeTo;
-  }
-
-  isThisHours(time, num: number) {
-    return time === num || time === 12 + num;
-  }
 }

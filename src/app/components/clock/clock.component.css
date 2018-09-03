@@ -1,5 +1,7 @@
 :host {
   font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
   display: block;
   position: absolute;
   top: 50%;

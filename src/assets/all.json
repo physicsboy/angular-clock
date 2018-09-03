@@ -2,11 +2,11 @@
   "one": [
     {
       "name": "i",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "t",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "l",
@@ -14,11 +14,11 @@
     },
     {
       "name": "i",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "s",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "a",
