@@ -179,13 +179,13 @@ export class NewQlockComponent implements OnInit {
   pastTo() {
     if (!this.firstFiveMins()) {
       // Past
-      if (this.mins < 30) {
+      if (this.mins < 35) {
         for (let i = 0; i <= 3; i++) {
           this.activate(this.data.five[i]);
         }
       }
 
-      if (this.mins > 30) {
+      if (this.mins > 35) {
         // To
         for (let i = 9; i <= 10; i++) {
           this.activate(this.data.four[i]);
