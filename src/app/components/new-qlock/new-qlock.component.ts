@@ -13,6 +13,8 @@ export class NewQlockComponent implements OnInit {
   @Input() time;
   @Input() hours;
   @Input() mins;
+  // mins = 1;
+  // hours = 10;
 
   hourPlusOne: number;
   data;
@@ -170,12 +172,6 @@ export class NewQlockComponent implements OnInit {
     }
   }
 
-  checkOclock() {
-    for (let i = 5; i <= 10; i++) {
-      this.mins === 0 ? this.activate(this.data.ten[i]) : this.deactivate(this.data.ten[i]);
-    }
-  }
-
   pastTo() {
     if (!this.firstFiveMins()) {
       // Past
@@ -196,6 +192,14 @@ export class NewQlockComponent implements OnInit {
 
   firstFiveMins() {
     return this.mins >= 0 && this.mins < 5;
+  }
+
+  checkOclock() {
+    if (this.firstFiveMins()) {
+      for (let i = 5; i <= 10; i++) {
+        this.activate(this.data.ten[i]);
+      }
+    }
   }
 
   isThisMins(num: number) {
