@@ -1,4 +1,4 @@
-# Clock
+# Clock: https://qlocktwo-angular-4.herokuapp.com/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
