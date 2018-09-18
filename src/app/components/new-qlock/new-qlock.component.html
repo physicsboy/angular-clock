@@ -1,4 +1,4 @@
-<div class="container">
+<div class="letter-container">
   <div *ngFor="let item of getDataKeys">
     <div class="character" *ngFor="let i of data[item]" [ngClass]="{'active': i.isActive}">
       {{i.name}}

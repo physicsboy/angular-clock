@@ -1,7 +1,8 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 import {FileLoaderService} from '../../services/file-loader/file-loader.service';
 import {interval} from 'rxjs';
 import {ClockService} from '../../services/clock/clock.service';
+import {OptionsService} from '../../services/options/options.service';
 
 @Component({
   selector: 'app-new-qlock',
@@ -13,14 +14,17 @@ export class NewQlockComponent implements OnInit {
   @Input() time;
   @Input() hours;
   @Input() mins;
-  // mins = 1;
-  // hours = 10;
+
+  @ViewChild('qlock') qlock: ElementRef;
+  @ViewChild('x') x: ElementRef;
 
   hourPlusOne: number;
   data;
   dataUrl = '../../../assets/all.json';
+  background;
+  text;
 
-  constructor(private file: FileLoaderService, private clock: ClockService) {
+  constructor(private file: FileLoaderService, private clock: ClockService, private options: OptionsService) {
   }
 
   ngOnInit() {
@@ -28,10 +32,13 @@ export class NewQlockComponent implements OnInit {
       this.data = data;
     });
 
+    this.options.colour.subscribe(colour => {
+      this.x.nativeElement.style.background = colour;
+    });
 
     interval(1000).subscribe(() => {
       // this.itIs();
-      this.resetMins()
+      this.resetMins();
       this.checkMins();
       this.checkHours();
       this.checkOclock();
@@ -50,15 +57,15 @@ export class NewQlockComponent implements OnInit {
   pastToHour(): number {
     if (this.mins > 30) {
       this.hours === 23 ? this.hourPlusOne = 0 : this.hourPlusOne = this.hours + 1;
-      console.log(this.hourPlusOne);
       return this.hourPlusOne;
     }
-    console.log(this.hours);
     return this.hours;
   }
 
   get getDataKeys() {
-    return Object.keys(this.data);
+    if (this.data) {
+      return Object.keys(this.data);
+    }
   }
 
   private activate(char) {
@@ -206,10 +213,6 @@ export class NewQlockComponent implements OnInit {
     const timePast = this.mins >= num && this.mins < num + 5;
     const timeTo = this.mins >= 60 - num && this.mins < 65 - num;
     return timePast || timeTo;
-  }
-
-  isThisHours(time, num: number) {
-    return this.hours === num || this.hours === 12 + num;
   }
 
 }
